@@ -14,13 +14,12 @@ function About() {
   return (
     <div className={styles.About}>
       <Head title={pageTitle} />
-
+      test
       <HeroBanner
         backgroundImageSource={`${s3}redesign/heroBanners/about.jpg`}
         className={`${styles.hero} bg-top min-h-[60dvh]`}
         title={pageTitle}
       />
-
       <Content
         theme="white"
         columns={[
@@ -61,7 +60,6 @@ function About() {
           </>,
         ]}
       />
-
       <Content
         theme="secondary"
         title="What We Do"
@@ -146,7 +144,6 @@ function About() {
           </ImageCard>,
         ]}
       />
-
       <Content
         theme="white"
         title="Mission"
@@ -163,7 +160,6 @@ function About() {
           </p>,
         ]}
       />
-
       <Content
         theme="gray"
         title="Core Values"
